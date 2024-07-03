@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: 15th_june
+    name: my-lamborghini-site
     env: static
-    staticPublishPath: ./static # Change this if you didn't use a static directory
+    staticPublishPath: . # Points to the root directory
     buildCommand: "" # No build command needed
