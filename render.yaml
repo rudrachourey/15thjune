@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: 15th_june
+    env: static
+    staticPublishPath: ./static # Change this if you didn't use a static directory
+    buildCommand: "" # No build command needed
